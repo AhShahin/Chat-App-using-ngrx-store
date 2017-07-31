@@ -1,3 +1,9 @@
-/**
- * Created by ahmed on 2017-06-14.
- */
+
+
+export interface ThreadSummaryVM {
+  id: number;
+  participantNames: string;
+  lastMessageText: string;
+  timestamp: number;
+  read: boolean;
+}

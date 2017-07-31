@@ -1,3 +1,15 @@
-/**
- * Created by ahmed on 2017-06-24.
- */
+
+
+import {Routes} from "@angular/router";
+import {HomeComponent} from "app/home/home.component";
+import {AboutComponent} from "./about/about.component";
+export const routes: Routes = [
+  {
+    path: 'home',
+    component: HomeComponent
+  },
+  {
+    path: 'about',
+    component: AboutComponent
+  }
+];

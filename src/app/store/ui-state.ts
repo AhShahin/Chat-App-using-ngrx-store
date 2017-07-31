@@ -1,3 +1,12 @@
-/**
- * Created by ahmed on 2017-06-13.
- */
+
+export interface UiState {
+  userId: number;
+  currentThreadId: number;
+  currentError?: string;
+}
+
+
+export const INITIAL_UI_STATE: UiState = {
+  userId: undefined,
+  currentThreadId: undefined
+};

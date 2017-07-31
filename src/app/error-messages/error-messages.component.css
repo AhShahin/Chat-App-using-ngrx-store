@@ -1,0 +1,9 @@
+
+.messages-frame {
+  margin-top: 0px;
+  position: relative;
+}
+
+.messages-container {
+  width: inherit;
+}

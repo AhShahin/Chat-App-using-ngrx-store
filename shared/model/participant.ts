@@ -1,3 +1,6 @@
-/**
- * Created by ahmed on 2017-06-12.
- */
+
+
+export interface Participant {
+  id: number;
+  name: string;
+}

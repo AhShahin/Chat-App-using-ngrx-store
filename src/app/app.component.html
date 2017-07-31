@@ -1,3 +1,21 @@
-<h1>
-  {{title}}
-</h1>
+
+
+<header class="l-header v-center-parent">
+  <ul class="top-menu disable-text-selection">
+    <li class="menu-entry">
+      <a routerLink="home" href="/">Home</a>
+    </li>
+    <li class="menu-entry">
+      <a routerLink="about" href="/">About</a>
+    </li>
+  </ul>
+</header>
+
+
+<app-error-messages></app-error-messages>
+
+<div class="chatapp">
+
+<router-outlet></router-outlet>
+
+</div>

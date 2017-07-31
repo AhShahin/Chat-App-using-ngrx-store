@@ -4,8 +4,11 @@ import {ApplicationState} from "../store/application-state";
 
 export function userNameselector(state: ApplicationState): string {
 
-  if (!state.uiState.userId) {
+  const currentUserId = state.uiState.userId,
+      currentParticipant = state.storeData.participants[currentUserId];
+
+  if (!currentParticipant) {
     return "";
   }
-  return state.storeData.participants[state.uiState.userId].name;
+  return currentParticipant.name;
 }

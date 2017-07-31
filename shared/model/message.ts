@@ -1,3 +1,9 @@
-/**
- * Created by ahmed on 2017-06-12.
- */
+
+
+export interface Message {
+  id: number;
+  threadId: number;
+  participantId: number;
+  text: string;
+  timestamp: number;
+}

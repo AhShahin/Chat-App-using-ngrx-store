@@ -1,3 +1,8 @@
-/**
- * Created by ahmed on 2017-06-19.
- */
+
+
+export interface MessageVM {
+  id:number;
+  text:string;
+  participantName:string;
+  timestamp: number;
+}
